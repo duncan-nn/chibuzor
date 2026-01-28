@@ -1,0 +1,86 @@
+@use './breakpoints' as u;
+@use './variables' as *;
+
+.nav-container {
+    width: calc(100% - 40px);
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 20px;
+    @include u.breakpoint(md) {
+        width: calc(100% - 60px);
+    }
+    .nav-left {
+        width: 250px;
+        height: 100%;
+        //border: 1px solid yellow;
+        display: flex;
+        align-items: center;
+        .nav-left-brand {
+            width: max-content;
+            display: flex;
+            align-items: center;
+            // border: 1px solid orange;
+            margin-right: 40px;
+            .logo-icon {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #1e1e1e;
+                margin-right: 5px;
+                background-size: cover;
+                background-position: center;
+            }
+            h3 {
+                font-size: 18px;
+                font-weight: 600;
+                color: #1e1e1e;
+            }
+        }
+        .nav-left-status {
+            width: max-content;
+            display: flex;
+            align-items: center;
+            .status-circle {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: #1abd50;
+                margin-right: 5px;
+            }
+            h4 {
+                font-size: 12px;
+                font-weight: 400;
+                color: #1abd50;
+            }
+        }
+    }
+    .nav-center {
+        width: calc(100% - 400px);
+        height: 100%;
+        background-color: #ececec;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        // clip-path: path("M 20,80 L 230,80 L 250,60 L 250,40 L 270,20 L  Z");
+    }
+    .nav-right {
+        width: 150px;
+        height: 100%;
+        //border: 1px solid yellow;
+        display: none;
+        @include u.breakpoint(md) {
+            display: flex;
+            align-items: center;
+            justify-content:flex-end;
+        }
+        .nav-right-link {
+            font-size: 16px;
+            font-weight: 300;
+            color: #1e1e1e;
+            margin-right: 20px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}

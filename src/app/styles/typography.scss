@@ -1,0 +1,107 @@
+@use './breakpoints' as u;
+@use './variables' as *;
+
+/* TITLES */
+
+.title-h1-softolivegreen {
+    font-weight: 600;
+    font-size: 36px;
+    color: $SoftOliveGreen;
+    text-align: center;
+    line-height: 1;
+    @include u.breakpoint(md) {
+        font-size: 28px;
+        text-align: left;
+    }
+}
+.title-h2-charcoalbrown {
+    font-weight: 500;
+    font-size: 28px;
+    color: $CharcoalBrown;
+    line-height: 1.3;
+    text-align: center;
+    @include u.breakpoint(md) {
+        text-align: left;
+        font-size: 32px;
+    }
+}
+.title-h2-creamwhite {
+    color: $CreamWhite;
+}
+
+
+/* SUB TITLES */
+
+.subtitle-h1-charcoalbrown {
+    font-weight: 300;
+    font-size: 21px;
+    color: $CharcoalBrown;
+    line-height: 1.3;
+    text-align: center;
+    @include u.breakpoint(md) {
+        // font-weight: 300;
+        // font-size: 21px;
+        text-align: left;
+    } 
+}
+.subtitle-h3-creamwhite {
+    font-weight: 300;
+    font-size: 18px;
+    color: $CreamWhite;
+    line-height: 1;
+    text-align: center;
+    @include u.breakpoint(md) {
+        text-align: left;
+        // font-size: 16px;
+    }
+}
+
+
+/* BODY TEXTS */
+
+.bodytext-one-charcoalbrown {
+    font-weight: 300;
+    font-size: 18px;
+    color: $CharcoalBrown;
+    line-height: 1.3;
+    text-align: center;
+    @include u.breakpoint(md) {
+        text-align: left;
+    }
+}
+
+
+/* PRODUCT TEXTS */
+.product-name-preview-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: $CharcoalBrown;
+    text-align: center;
+    text-transform: capitalize; 
+    line-height: 1;
+    @include u.breakpoint(md) {
+        font-size: 15px;
+    }
+}
+.product-price-preview-text {
+    font-weight: 300;
+    font-size: 14px;
+    color: $NileGold;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1;
+    @include u.breakpoint(md) {
+        font-size: 16px;
+    }
+}
+.product-usage-preview-text {
+    font-weight: 300;
+    font-size: 13px;
+    color: $CharcoalBrown;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1;
+    @include u.breakpoint(md) {
+        font-size: 14px;
+    }
+}
