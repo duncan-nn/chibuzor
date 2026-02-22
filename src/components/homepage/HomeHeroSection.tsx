@@ -8,7 +8,7 @@ function HomeHeroSection() {
             <div className='name-wrap'>
                 <div 
                 className='image-div'
-                style={{ backgroundImage: `url('${'/images/ck.png'}')`,}}/>
+                style={{ backgroundImage: `url('${'/images/ck.jpg'}')`,}}/>
                 <div className='name-stack'>
                     <h3 className='fullname'>Chibuzor Nnorom</h3>
                     <h3 className='role'>Digital Designer</h3>
@@ -19,9 +19,7 @@ function HomeHeroSection() {
                 <h1>Web Designer Developer</h1>
             </div>
             <div className='desc-wrap'>
-                <p>I design and build custom websites that seamlessly blend creativity and
-                functionality, using React and Next.js to create unique,
-                high-performance digital experiences.
+                <p>CRO-focused Next.js frontend developer specializing in building high-performance, conversion-optimized web experiences.
                 </p>
             </div>
             <div className='cta-wrap'>

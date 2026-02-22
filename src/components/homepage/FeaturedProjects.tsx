@@ -14,7 +14,7 @@ function FeaturedProjects() {
                 </div>
                 <div className='right'>
                     <p>
-                        A curated selection of projects where thoughtful design meets purposeful code—crafted to solve real problems and elevate digital experiences.
+                        A curated selection of projects where conversion strategy meets purposeful engineering — built to reduce friction, influence user behavior, and turn digital experiences into measurable results.
                     </p>
                 </div>
             </div>
@@ -24,17 +24,53 @@ function FeaturedProjects() {
                         <div className='image-div'>
                             <div 
                             className='image'
-                            style={{ backgroundImage: `url('${'/images/bottle-in-hand.jpg'}')`,}}/>
+                            style={{ backgroundImage: `url('${'/images/oula.jpg'}')`,}}/>
                         </div>
                         <div className='details'>
-                            <h1>Organic Beauty eCommerce Website</h1>
+                            <h1>Cosmetic Consultation Booking Optimization</h1>
                             <p>
-                                An organic beauty e-commerce platform designed to showcase clean formulations, intuitive shopping, and a seamless user experience across devices.
+                                A multi-step cosmetic consultation booking experience.
+                                Improved user flow, real-time validation, optimized load performance, and simplified service selection.
                             </p>
                             <div className='tech-stack'>
                                 <span>React</span>
                                 <span>NextJs</span>
                                 <span>TypeScript</span>
+                                <span>SCSS</span>
+                                <span>Framer-Motion</span>
+                            </div>
+                            <div className='cta-wrap'>
+                                <a 
+                                href="https://oula.vercel.app/"
+                                className="btn-dark-with-icon"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <span>View Live</span>
+                                    <FontAwesomeIcon icon={faArrowRight} className="icon-fa" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='project'>
+                    <div className='item-wrap'>
+                        <div className='image-div'>
+                            <div 
+                            className='image'
+                            style={{ backgroundImage: `url('${'/images/bottle-in-hand.jpg'}')`,}}/>
+                        </div>
+                        <div className='details'>
+                            <h1>Organic Beauty Product Discovery Experience</h1>
+                            <p>
+                                Optimized product discovery ecommerce website. High-performance home, product listing, and product detail pages with advanced filtering systems.
+                            </p>
+                            <div className='tech-stack'>
+                                <span>React</span>
+                                <span>NextJs</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                                <span>SCSS</span>
                             </div>
                             <div className='cta-wrap'>
                                 <a 
