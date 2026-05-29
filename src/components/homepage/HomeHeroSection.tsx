@@ -16,10 +16,12 @@ function HomeHeroSection() {
             </div>
             <div className='title-wrap'>
                 <h1>Hi I&apos;m Chibuzor:</h1>
-                <h1>Web Designer Developer</h1>
+                <h1>AI Agent Consultant & Web Developer</h1>
             </div>
             <div className='desc-wrap'>
-                <p>CRO-focused Next.js frontend developer specializing in building high-performance, conversion-optimized web experiences.
+                <p>
+                    CRO-focused Next.js developer building high-performance websites 
+                    and AI-powered systems that convert visitors into customers.
                 </p>
             </div>
             <div className='cta-wrap'>

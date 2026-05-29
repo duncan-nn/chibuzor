@@ -19,6 +19,42 @@ function FeaturedProjects() {
                 </div>
             </div>
             <div className='projects-container'>
+               <div className='project'>
+                    <div className='item-wrap'>
+                        <div className='image-div'>
+                            <div 
+                            className='image'
+                            style={{ backgroundImage: `url('${'/images/real-one.jpg'}')`,}}/>
+                        </div>
+                        <div className='details'>
+                            <h1>Modern Real Estate Platform</h1>
+                            <p>
+                                A high-performance real estate website built with Next.js and WordPress, 
+                                featuring advanced property search, dynamic listings, responsive design, 
+                                and a seamless user experience optimized for lead generation and property discovery.
+                            </p>
+                            <div className='tech-stack'>
+                                <span>React</span>
+                                <span>NextJs</span>
+                                <span>TypeScript</span>
+                                <span>SCSS</span>
+                                <span>Framer-Motion</span>
+                            </div>
+                            <div className='cta-wrap'>
+                                <a 
+                                href="https://oakline-nine.vercel.app/"
+                                className="btn-dark-with-icon"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <span>View Live</span>
+                                    <FontAwesomeIcon icon={faArrowRight} className="icon-fa" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className='project'>
                     <div className='item-wrap'>
                         <div className='image-div'>
